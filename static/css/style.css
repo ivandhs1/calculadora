@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cajaCalcu{
+    border: 5px solid red;
+    background-color: silver;
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 12%;
+    padding-left: 2%;
+    width: 20%;
+    border-radius: 20px;
+    padding: 1%;
+
+}
+
+h1{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.cajaResultado {
+    text-align: center;
+}
+
+.cajaResultado:hover{
+
+    color: brown;
+    font-style: italic;
+    font-weight: 100;
+
+}
+
+
+.calcu {
+    text-align: center;
+}
+
+.input {
+    width: 75%;
+    padding: 20px 3%;
+    background: transparent;
+    border: 0;
+    font-size: 150%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.result{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+}
+
+.enviarB{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+    padding: 1%;
+    border-radius: 5px;
+}
+
+.selectivo{
+    font-size: 120%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+}

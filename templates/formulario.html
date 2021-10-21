@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css')}}">
+        <title>CALCULATOR</title>
+    </head>
+    <body>
+
+        <div class="cajaCalcu">
+            <h1>CALCULADORA</h1>
+            <br>
+            <div class="calcu">
+                <form method="POST" action="{{url_for('procesar')}}">
+                    <input class="input" name="num1" required type="text" placeholder="Numero Uno">
+                    <br><br>
+                    <input class="input" name="num2" required type="text" placeholder="Numero Dos">
+                    <br><br>
+
+                    <select class="selectivo" name="operacion" id="operacion">
+                        <option value="sumar">Sumar</option>
+                        <option value="restar">Restar</option>
+                        <option value="multiplicar">Multiplicar</option>
+                        <option value="dividir">Dividr</option>
+                    </select>
+
+                    <input class="enviarB" type="submit" value="Enviar">
+
+            </div>
+            <br>
+                <div class="cajaResultado">
+                    <strong class="result">RESULTADO: </strong> {{ res }}
+                    <strong></strong> {{ res1 }}
+                </div>
+            <br>
+
+        </div>
+
+        </form>
+    </body>
+</html>
